@@ -1,0 +1,14 @@
+Feature,Description
+Model Name,Phi-3-mini-4k-instruct-bnb-4bit
+Type of Model,Text-to-SQL Language Model
+Framework,Transformers (Hugging Face)
+Optimized for,"Fast, accurate SQL generation from natural language prompts"
+Fine-Tuning Method,LoRA (Low-Rank Adaptation) fine-tuning on SQL generation tasks
+Inference Speed Optimization,Unsloth 2x faster inference for optimized model performance
+Key Use Case,Generating SQL queries from natural language input
+Technologies Used,"Transformers, Unsloth, PyTorch, LoRA, Hugging Face Datasets"
+Tokenizer,Salesforce/codegen-350M-mono
+Maximum Sequence Length,2048 tokens
+Training Approach,Trained using SFTTrainer and Unsloth optimization for inference
+Performance Tuning,Gradient checkpointing and batch size optimization with LoRA
+Database Support,Works with custom and predefined database schemas
